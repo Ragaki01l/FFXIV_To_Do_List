@@ -1,7 +1,13 @@
+@font-face{
+    font-family: finalfantasy;
+    src: url(Jupiter\ Pro\ Regular.otf)
+}
+
 body {
     background: #04A1BF;
+    background-image: url(ffxiv.jpg);
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
+    font-family: finalfantasy;
 }
 
 .intro {
@@ -10,9 +16,13 @@ body {
 }
 
 h1 {
-    color: #ffffff;
+
+    color: #ab41b3;
     text-transform: uppercase;
     font-weight: 800;
+    -webkit-text-stroke:.0001px black;
+    font-size: 500%
+
 }
 
 p {
@@ -22,14 +32,16 @@ p {
 #first {
     margin-top: 10px;
     color: #FFCD5D;
+    font-size: 150%
+    
 }
 
 #second {
-    color: #51DF70;
+    color: #FFCD5D;
 }
 
 #third {
-    color: #025f70;
+    color: #FFCD5D;
     margin-bottom: 30px;
 }
 
