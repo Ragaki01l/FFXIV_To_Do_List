@@ -49,7 +49,7 @@ p {
     border: none;
     padding: 5px 15px;
     border-radius: 5px;
-    color: #04A1BF;
+    color: white;
     background-color: #025f70;
     transition: all 0.75s ease;
     -webkit-transition: all 0.75s ease;
@@ -60,7 +60,7 @@ p {
 }
 
 #enter:hover{
-    background-color: #02798F;
+    background-color: black;
     color: #FFCD5D;
 }
 
@@ -75,10 +75,10 @@ li {
     color: #ffffff;
     text-transform: capitalize;
     font-weight: 600;
-    border: 2px solid #025f70;
+    border: 2px solid #FFCD5D;;
     border-radius: 5px;
     margin-bottom: 10px;
-    background: #4EB9CD;
+    background: #150830;
     transition: all 0.75s ease;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
@@ -108,7 +108,7 @@ input {
 
 .done {
     background: #51DF70 !important;
-    color: #00891E;
+    color: Black;
 }
 
 .delete {
